@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 0 20px;
+    background-image: linear-gradient(rgba(77, 77, 92, 0.6), rgba(77,77,92,0.6)), url(../storage/roman.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* AGREGAR TAREA */
+
+#tarea-nueva{
+    margin-top: 20px;
+    background: #48484894;
+    padding: 50px 0;
+    color: white;
+    border-radius: 10px;
+}
+#tarea-nueva h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#tarea-nueva form{
+    
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.datos-form div{
+    padding: 10px;
+}
+form label{
+    display: block;
+    margin-bottom: 8px;
+}
+form input,
+form textarea{
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.btn-agregar-tarea{
+    display: inline-block;
+    text-decoration: none;
+    color: #6cc091;
+    padding: 10px 30px;
+    border: 3px solid #6cc091;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    background: none;
+}
+.btn-agregar-tarea:hover{
+    background: #6cc091;
+    color: white;
+}
+
+/* VISUALIZAR TAREA */
+#tareas{
+    margin-top: 20px;
+    background: #48484894;
+    padding: 50px 0;
+    color: white;
+    border-radius: 10px;
+}
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contenido-tareas{
+    padding: 0 50px;
+}
+.name{
+    display: flex;
+    margin-bottom: 5px;
+}
+.description{
+    margin-bottom: 20px;
+}
+.name button{
+    padding: 2px 10px;
+    color: #6cc091;
+    background: none;
+    border: none;
+}
+.name button:hover{
+    color: rgb(220, 104, 104);
+}
